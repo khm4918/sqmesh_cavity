@@ -9,7 +9,7 @@ cp -r base_fields_sqmesh 0
 
 # remove old createFields file and replace with case template
 rm createFields.H
-cp History/Experimental/cyl_cav_rmi/thickshock_sinusoid_ideal16.H createFields.H
+cp History/Experimental/cyl_cav_rmi/thickshock_polycav_ideal16.H createFields.H
 
 # run blockMesh in case file and copy constant and system folders
 cd $SCRIPT_DIR
