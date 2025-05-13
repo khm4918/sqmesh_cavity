@@ -1,6 +1,6 @@
 #!/bin/sh
-#PBS -l walltime=7:59:00
-#PBS -l select=1:ncpus=128:mpiprocs=128:mem=50gb
+#PBS -l walltime=23:59:00
+#PBS -l select=8:ncpus=128:mpiprocs=128:mem=900gb
 #PBS -j oe
 
 # Change to the directory the job was submitted from

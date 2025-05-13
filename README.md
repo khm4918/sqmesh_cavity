@@ -1,6 +1,5 @@
-# short_cyl_nocav
-Case file for cylindrical RMI blastFoam simulations.
-Square mesh geometry with cutoff centre.
-No cavities but sinusoidal perturbation
+# cyl_cav_ideal
+Template case file for cylindrical RMI blastFoam simulations.
+Square aximesh geometry with cutoff centre.
 Using vanLeer flux limiters for interpolation.
-Initial fields preset.
+Initial fields not preset.
